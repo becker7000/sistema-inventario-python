@@ -1,3 +1,7 @@
+import tkinter as tk
+from gui.inventario_app import InventarioApp
+
+"""
 from modelo.producto import Producto
 from modelo.inventario import Inventario
 from util.admin_archivo import guardar_json, cargar_json
@@ -75,13 +79,20 @@ if __name__=="__main__":
         else: # Caso por defecto
             print("\n\t Opción no válida, selecciona una opción del 1 al 7.")
 
+"""
 
+"""
+"""
 
+# Ejecutar interfaz
+if __name__ == "__main__":
+    # Pruebas de escritorio:
+    ventana_inventario = tk.Tk()
+    # Se configura la ventana con los elementos de gui necesarios
+    app = InventarioApp(ventana_inventario)
+    ventana_inventario.mainloop()
 
-
-
-
-
-
-
+#    root = tk.Tk()
+#    app = AnalisisInventario(root)
+#    root.mainloop()
 
