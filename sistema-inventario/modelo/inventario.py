@@ -45,3 +45,8 @@ class Inventario:
     def cargar_desde_dicts(self,data_list):
         for data in data_list:
             self.agregar_producto(Producto.from_dict(data))
+
+
+
+
+

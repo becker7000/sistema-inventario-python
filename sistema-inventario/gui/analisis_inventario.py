@@ -10,7 +10,7 @@ class AnalisisInventario:
 
     def __init__(self, root):
         self.root = root
-        self.root.title("Análisis del Inventario")  # Título de la ventana
+        self.root.title("Análisis de inventario")  # Título de la ventana
         self.lista_productos = cargar_json("inventario.json")  # Carga el inventario como lista de diccionarios
         self.df = pd.DataFrame(self.lista_productos)  # Convierte la lista a un DataFrame de pandas
 

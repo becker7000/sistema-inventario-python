@@ -84,6 +84,7 @@ if __name__=="__main__":
 """
 """
 
+"""
 # Ejecutar interfaz
 if __name__ == "__main__":
     # Pruebas de escritorio:
@@ -95,4 +96,11 @@ if __name__ == "__main__":
 #    root = tk.Tk()
 #    app = AnalisisInventario(root)
 #    root.mainloop()
+"""
+
+# main.py
+from consola.consola_test_db import main
+
+if __name__ == "__main__":
+    main()
 
